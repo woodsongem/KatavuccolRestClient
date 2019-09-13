@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace KatavuccolRestClient.DataContracts
 {
-    public class IPost
+    public interface IPost
     {
         object Request { get; set; }
         string Url { get; }
