@@ -6,10 +6,10 @@ namespace KatavuccolRestClient.Client
     {
          RestResponse Get(IGet get);
 
-        // RestResponse Post(IPost get);
+        RestResponse Post(IPost get);
 
-        // RestResponse Delete(IDelete get);
+        RestResponse Delete(IDelete get);
 
-        // RestResponse Put(IPut get);
+        RestResponse Put(IPut get);
     }
 }
