@@ -1,10 +1,12 @@
-using KatavuccolRestClient.DataContracts;
 
-namespace KatavuccolRestClient.Client
+
+using RestClient.DataContracts;
+
+namespace RestClient.Client
 {
     public interface IKatavuccolRestClient
     {
-         RestResponse Get(IGet get);
+        RestResponse Get(IGet get);
 
         RestResponse Post(IPost get);
 

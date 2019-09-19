@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace KatavuccolRestClient.DataContracts
+namespace RestClient.DataContracts
 {
     public interface IPost
     {

@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 
-namespace KatavuccolRestClient.DataContracts
+namespace RestClient.DataContracts
 {
-    public interface IPut
+    public interface IDelete
     {
-        object Request { get; set; }
+         object Request { get; set; }
         string Url { get; }
         List<KeyValuePair> Headers { get; set; }
         string Endpoint { get; set; }

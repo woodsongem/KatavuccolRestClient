@@ -1,4 +1,4 @@
-namespace KatavuccolRestClient.DataContracts
+namespace RestClient.DataContracts
 {
     public enum RestResultStatus
     {

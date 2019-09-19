@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using KatavuccolCommon.Extensions;
-using KatavuccolRestClient.DataContracts;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
+using RestClient.DataContracts;
 
-namespace KatavuccolRestClient.Client
+namespace RestClient.Client
 {
     public class KatavuccolRestClient : IKatavuccolRestClient
     {
